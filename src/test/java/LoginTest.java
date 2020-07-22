@@ -21,6 +21,7 @@ public class LoginTest {
     public void doLogin() {
         driver.get("https://gmail.com");
         driver.findElement(By.id("identifierId")).sendKeys("trainer@wey2automation.com");
+        //comment jenkins
     }
 
     @AfterSuite
